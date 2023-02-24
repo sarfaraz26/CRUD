@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "MEAN-Employee",
+    "dateExported": "2023-02-23T17:57:27.898Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3a19e475-2e2b-416a-b388-5dc645980c28",
+            "colId": "2f4d0f45-8284-4003-ac50-53a4ce920b34",
+            "containerId": "",
+            "name": "Add Employee",
+            "url": "http://localhost:1192/api/employees/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-22T14:41:08.891Z",
+            "modified": "2023-02-23T17:50:05.206Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Akhilesh Mishra\",\n  \"location\" : \"Mumbai\",\n  \"age\" : 33,\n  \"designation\" : \"Module Lead\",\n  \"reportsTo\" : \"Batul Saifee\",\n  \"isManager\" : false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "713edad5-33bd-43e9-8ea4-91b04877a44b",
+            "colId": "2f4d0f45-8284-4003-ac50-53a4ce920b34",
+            "containerId": "",
+            "name": "Get All Employees",
+            "url": "http://localhost:1192/api/employees",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-02-22T14:58:13.510Z",
+            "modified": "2023-02-22T14:58:27.918Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e3c40e01-e28f-4c8c-99d2-dc0f3c18528f",
+            "colId": "2f4d0f45-8284-4003-ac50-53a4ce920b34",
+            "containerId": "",
+            "name": "Delete Employee",
+            "url": "http://localhost:1192/api/employees/63f7a80199193bdb9a8a5302",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-02-22T15:37:48.800Z",
+            "modified": "2023-02-23T17:53:28.115Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "20f19be9-efa5-4a6e-847c-287b41c7c697",
+            "colId": "2f4d0f45-8284-4003-ac50-53a4ce920b34",
+            "containerId": "",
+            "name": "Get Single Employee",
+            "url": "http://localhost:1192/api/employees/63f6288c21bdcf37b8484a17",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-02-22T15:42:20.516Z",
+            "modified": "2023-02-23T17:54:03.887Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3e3defb5-4fc8-4b2f-b069-d12cc9c8ceb6",
+            "colId": "2f4d0f45-8284-4003-ac50-53a4ce920b34",
+            "containerId": "",
+            "name": "Update Employee",
+            "url": "http://localhost:1192/api/employees/63f6281921bdcf37b8484a13",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-02-22T15:52:56.271Z",
+            "modified": "2023-02-23T17:55:33.858Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Yogesh Tripathi2\",\n  \"location\": \"Pune\",\n  \"age\": 35,\n  \"designation\": \"Module Lead\",\n  \"reportsTo\": \"Kunal Samant\",\n  \"isManager\": false\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
