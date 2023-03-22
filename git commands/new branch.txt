@@ -1,0 +1,18 @@
+-- gives list of all branches.
+git branch 
+
+
+-- create new branch
+git branch <_new_branch_name>
+
+
+-- add all the files to commit
+git add .
+
+
+-- commit message
+git commit -m "Commit message"
+
+
+-- push changes to branch
+git push origin <_new_branch_name>
