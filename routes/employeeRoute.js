@@ -3,7 +3,8 @@ const router = express.Router();
 
 const { getAllEmployees, getEmployeeByID, 
         insertEmployee, updateEmployee, 
-        deleteEmployee } = require('../controllers/employeeController');
+        deleteEmployee,
+        getManagerEmployees} = require('../controllers/employeeController');
 
 
 // api/employees
@@ -11,7 +12,9 @@ router.get('/', getAllEmployees)    // GET - Get all Employee
 
 
 // api/employees/add
-router.post('/add', insertEmployee)    // POST - Insert an Employee
+router.route('/add')
+    .get(getManagerEmployees)   // GET - Get Employees who are manager
+    .post(insertEmployee)       // POST - Insert an Employee
     
 
 // api/employees/5    

@@ -16,21 +16,12 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Sarfaraz Ansari</td>
-        <td>Mumbai</td>
-        <td>Senior Software Engineer</td>
-        <td>Batul Saifee</td>
-        <td><a href="#"><i class="far fa-edit mx-3 text-success"></i></a></td>
-        <td><a href="#"><i class="fas fa-trash mx-3 text-danger"></i></a></td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Yogesh Tripathi</td>
-        <td>Mumbai</td>
-        <td>Module Lead</td>
-        <td>Kunal Samant</td>
+      <tr *ngFor="let employee of employees">
+        <th scope="row">{{employee._id}}</th>
+        <td>{{employee.Name}}</td>
+        <td>{{employee.Location}}</td>
+        <td>{{employee.Designation}}</td>
+        <td>{{employee.ReportsTo}}</td>
         <td><a href="#"><i class="far fa-edit mx-3 text-success"></i></a></td>
         <td><a href="#"><i class="fas fa-trash mx-3 text-danger"></i></a></td>
       </tr>

@@ -1,0 +1,211 @@
+[{
+  "_id": {
+    "$oid": "63f627890bd22af0a06a37e2"
+  },
+  "Name": "Sarfaraz Ansari",
+  "Location": "Mumbai",
+  "Age": 23,
+  "Designation": "Senior Software Engineer",
+  "ReportsTo": "Batul Saifee",
+  "isManager": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677076361788"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677076361788"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6281921bdcf37b8484a13"
+  },
+  "Name": "Yogesh Tripathi",
+  "Location": "Mumbai",
+  "Age": 32,
+  "Designation": "Module Lead",
+  "ReportsTo": "Kunal Samant",
+  "isManager": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677076505538"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677174933846"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6285621bdcf37b8484a15"
+  },
+  "Name": "Omkar Prabhudesai",
+  "Location": "Pune",
+  "Age": 42,
+  "Designation": "Team Lead",
+  "ReportsTo": "Batul Saifee",
+  "isManager": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677076566132"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677076566132"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6288c21bdcf37b8484a17"
+  },
+  "Name": "Deepak Tiwari",
+  "Location": "Pune",
+  "Age": 40,
+  "Designation": "Module Lead",
+  "ReportsTo": "Batul Saifee",
+  "isManager": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677076620032"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677076620032"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f628d621bdcf37b8484a1b"
+  },
+  "Name": "Salman Khan",
+  "Location": "Mumbai",
+  "Age": 24,
+  "Designation": "Senior Database Administrator",
+  "ReportsTo": "Nikita Chavan",
+  "isManager": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677076694834"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677076694834"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f6293d21bdcf37b8484a1d"
+  },
+  "Name": "Shirin Mujawar",
+  "Location": "Pune",
+  "Age": 24,
+  "Designation": "Senior Software Engineer",
+  "ReportsTo": "Batul Saifee",
+  "isManager": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677076797223"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677076797223"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f62ba021bdcf37b8484a1f"
+  },
+  "Name": "Mark Wadington",
+  "Location": "USA",
+  "Age": 56,
+  "Designation": "Principal Engineer",
+  "ReportsTo": "John Bridle",
+  "isManager": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677077408021"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677077408021"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f62bd621bdcf37b8484a21"
+  },
+  "Name": "Shekhar Patel",
+  "Location": "USA",
+  "Age": 52,
+  "Designation": "Senior Associate",
+  "ReportsTo": "Mark Wadington",
+  "isManager": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677077462304"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677077462304"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f62c0421bdcf37b8484a23"
+  },
+  "Name": "Batul Saifee",
+  "Location": "Mumbai",
+  "Age": 46,
+  "Designation": "Manager",
+  "ReportsTo": "Supriyo Bose",
+  "isManager": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677077508185"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677077508185"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63f7a750dbaee3b7bbd215e2"
+  },
+  "Name": "Akhilesh Mishra",
+  "Location": "Mumbai",
+  "Age": 33,
+  "Designation": "Module Lead",
+  "ReportsTo": "Batul Saifee",
+  "isManager": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1677174608053"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1677174608053"
+    }
+  },
+  "__v": 0
+}]

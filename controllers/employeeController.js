@@ -5,7 +5,7 @@ let Employee = require('../models/employeeModel');
 // Get All Employees
 exports.getAllEmployees = async function(req, res) {
     await Employee.find().then(resp => {
-        res.send(resp);
+        res.json(resp);
     }).catch(err => {
         console.log(err);
     })
@@ -22,6 +22,16 @@ exports.getEmployeeByID = function(req, res) {
     })
 }
 
+
+
+//Get Employee who are Manager
+exports.getManagerEmployees = function(req, res){
+    Employee.find().then(employees => {
+        res.json(employees.filter(employee => employee.isManager));
+    }).catch(err => {
+        console.log(err);
+    })
+}
 
 
 // Insert data into Employee Schema

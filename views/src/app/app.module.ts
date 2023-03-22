@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -10,6 +13,7 @@ import { EmployeeGridComponent } from './main/employee-grid/employee-grid.compon
 import { EmployeeFormComponent } from './main/employee-form/employee-form.component';
 import { AboutComponent } from './main/about/about.component';
 import { StartViewComponent } from './main/start-view/start-view.component';
+import { EmployeeService } from './services/employee.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +28,11 @@ import { StartViewComponent } from './main/start-view/start-view.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -6,6 +6,7 @@ const PORT = process.env.PORT;
 const bodyParser = require('body-parser');
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 
 //routes imports
@@ -15,6 +16,11 @@ const employeeRoute = require('./routes/employeeRoute');
 //using express
 const app = express();
 
+//cors - Allowing client to talk with Server
+app.use(cors());
+
+
+// For getting user input values from client.
 app.use(bodyParser.json());
 
 

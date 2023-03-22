@@ -16,19 +16,17 @@
         <div class="form-group  mb-3">
             <select class="form-select" id="exampleSelect1">
               <option selected disabled>Select Designation</option>
-              <option>Senior Software Engineer</option>
-              <option>Software Engineer</option>
-              <option>Module Lead</option>
-              <option>Team Lead</option>
-              <option>Manager</option>
+              <option *ngFor="let designation of designations" [value]="designation">
+                {{designation}}
+              </option>
             </select>
         </div>
         <div class="form-group mb-3">
             <select class="form-select" id="exampleSelect1">
               <option selected disabled>Reports to</option>
-              <option>Batul Saifee</option>
-              <option>Samant Kunal</option>
-              <option>Mark Wadington</option>
+              <option *ngFor="let employee of managerEmployees" [value]="employee.Name">
+                {{employee.Name}}
+            </option>
             </select>
         </div>
         <fieldset>
